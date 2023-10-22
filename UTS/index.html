@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TugasUTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container" id="home">
+        <header class="head">
+            <img src="logo.jpg" alt="gambar logo" class="gambar">
+
+            <div class="side">
+                <h1>Selamat Datang</h1>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <a href="#home" class="menu">Home</a>
+            <a href="#form" class="menu">Form</a>
+            <a href="#tabel" class="menu">Tabel</a>
+        </nav>
+
+        <section class="home">
+            <h2>Tentang Website</h2>
+            <p>Website ini adalah sebuah media yang memberikan penjelasan mengenai beberapa hal. Yang pertama terdapat halaman pertama yang menguraikan tentang website sendiri. Halaman kedua yaitu formulir pendaftaran untuk digunakan sebagai media tempat mendaftar bagi pengguna dengan beberapa detail yaitu nama, NIM, email, alamat dan lain sebagainya. Berikutnya adalah halaman tabel yang menampilkan daftar mahasiswa dengan beberapa detail. Tabel ini dapat digunakan untuk memberikan informasi tentang biodata mahasiswa.</p>
+        </section>
+
+        <section class="form" id="form">
+            <h2 id="form-mahasiswa">Form</h2>
+            <form action="proses_pendaftaran.php" method="get">
+              <label for="nama">Nama:</label>
+              <input type="text" id="nama" name="nama" required /><br />
+      
+              <label for="nim">NIM:</label>
+              <input type="text" id="nim" name="nim" required /><br />
+      
+              <label for="prodi">Program Studi:</label>
+              <input type="text" id="prodi" name="prodi" required /><br />
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required /><br />
+      
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required /><br />
+      
+              <label for="gender">Jenis Kelamin:</label>
+              <input type="radio" id="gender" name="gender" value="Laki-laki" required /> Laki-laki
+              <input type="radio" id="gender" name="gender" value="Perempuan" required /> Perempuan<br />
+      
+              <label for="birthdate">Tanggal Lahir:</label>
+              <input type="date" id="birthdate" name="birthdate" required /><br />
+      
+              <label for="alamat">Alamat:</label>
+              <input type="alamat" id="alamat" required /><br />
+              
+              <input type="submit" value="Submit">
+      
+          </form>
+        </section>
+
+        <section class="tabel" id="tabel">
+          <h2 id="tabel-mahasiswa">Tabel</h2>
+            <form action="#">
+              <table>
+                <tr>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Program Studi</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Alamat</th>
+                </tr>
+                <tr>
+                    <td>Dea Lisriani Safitri Waruwu</td>
+                    <td>121140208</td>
+                    <td>Teknik Informatika</td>
+                    <td>waruwudea8@.com</td>
+                    <td>*******</td>
+                    <td>Perempuan</td>
+                    <td>2003-12-04</td>
+                    <td>Jalan Raden Saleh 1</td>
+                </tr>
+                <tr>
+                    <td>Christine Natalia</td>
+                    <td>121140191</td>
+                    <td>Teknik Informatika</td>
+                    <td>christine@gmail.com</td>
+                    <td>*******</td>
+                    <td>Perempuan</td>
+                    <td>2002-12-01</td>
+                    <td>Gang Nangka 4</td>
+                </tr>
+                <tr>
+                    <td>Joanne Polama Putri Sembiring</td>
+                    <td>121140128</td>
+                    <td>Teknik Informatika</td>
+                    <td>joanne@gmail.com</td>
+                    <td>*******</td>
+                    <td>Perempuan</td>
+                    <td>2002-11-28</td>
+                    <td>Gang Nangka 4</td>
+                </tr>
+                <tr>
+                    <td>Annisa Sri Rahmayani</td>
+                    <td>121430054</td>
+                    <td>Teknik Biomedis</td>
+                    <td>annisa@gmail.com</td>
+                    <td>*******</td>
+                    <td>Perempuan</td>
+                    <td>2003-04-12</td>
+                    <td>Jalan Raden Saleh 1</td>
+                </tr>
+                <tr>
+                    <td>Muhammad Ridho Sandi Kurniawan</td>
+                    <td>121140046</td>
+                    <td>Teknik Informatika</td>
+                    <td>ridho@gmail.com</td>
+                    <td>*******</td>
+                    <td>Laki-laki</td>
+                    <td>2003-09-10</td>
+                    <td>Jalan Kasuari</td>
+                </tr>
+            </table>
+            </form>
+
+        </section>
+    </div>
+</body>
+
+<footer>
+  <p>&copy; 2023 DEA</p>
+</footer>
+
+</html>
